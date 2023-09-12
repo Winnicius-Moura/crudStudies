@@ -17,12 +17,16 @@
     "@mui/material": "^5.14.8",
     "@mui/x-data-grid": "^6.13.0",
     "@mui/x-date-pickers": "^6.13.0",
+    "@reduxjs/toolkit": "^1.9.5",
     "@tailwindcss/container-queries": "^0.1.1",
     "axios": "^1.5.0",
     "date-fns": "^2.30.0",
+    "essencials": "file:../essencials",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.46.1",
+    "react-redux": "^8.1.2",
+    "redux-thunk": "^2.4.2",
     "zod": "^3.22.2"
   },
   "devDependencies": {
