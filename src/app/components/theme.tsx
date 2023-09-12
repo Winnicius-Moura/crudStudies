@@ -6,7 +6,7 @@ import { RootState } from "../../redux/store"
 
 export const Theme = () => {
   const dispatch = useDispatch()
-  const darkMode = useSelector((state: RootState) => state.theme.darkTheme)
+  const darkMode = useSelector((state: RootState) => state.theme.darkMode)
 
   return (
     <>
