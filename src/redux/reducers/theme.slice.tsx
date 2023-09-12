@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit"
-
-const initialState = {
+interface ThemeState {
+  darkMode: boolean
+}
+const initialState: ThemeState = {
   darkMode: false,
 }
 
@@ -8,8 +10,8 @@ export const themeSlice = createSlice({
   name: 'theme',
   initialState,
   reducers: {
-    toogleTheme: (prevState) => {
-      prevState.darkMode = !prevState.darkMode
+    toogleTheme: (state) => {
+      state.darkMode = !state.darkMode
     },
   },
 })
