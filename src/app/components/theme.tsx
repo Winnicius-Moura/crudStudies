@@ -1,6 +1,6 @@
 import { Button } from "@mui/material"
 import { useDispatch, useSelector } from "react-redux"
-import { toogleTheme } from "../../redux/reducers/theme.slice"
+import { toggleTheme } from "../../redux/reducers/theme.slice"
 import { RootState } from "../../redux/store"
 
 
@@ -11,7 +11,7 @@ export const Theme = () => {
   return (
     <>
       <h4>{darkMode ? "Dark" : "Light"}</h4>
-      <Button onClick={() => dispatch(toogleTheme())} variant="contained">ToogleTheme</Button>
+      <Button onClick={() => dispatch(toggleTheme())} variant="contained">ToogleTheme</Button>
     </>
   )
 }

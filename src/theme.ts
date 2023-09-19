@@ -5,7 +5,7 @@ import { ptBR as MaterialLocale } from '@mui/x-data-grid';
 export const darkTheme = createTheme({
   palette: {
     primary: {
-      main: '#5b5bd6',
+      main: '#6654c0',
       light: '#fefefe'
     },
     mode: 'dark',
